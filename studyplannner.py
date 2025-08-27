@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # === Configuration ===
-genai.configure(api_key="AIzaSyBFWADVbjtG8W2hdrQ5EznCRkSxszIII_Q")  # 🔁 Replace with your real API key
+genai.configure(api_key="your api key")  # 🔁 Replace with your real API key
 model = genai.GenerativeModel("models/gemini-2.0-flash")
 
 # === Streamlit UI Setup ===
@@ -49,3 +49,4 @@ if generate:
 # === Footer ===
 st.markdown("---")
 st.caption("🚀 Built with ❤️ using Streamlit + Gemini 2.0 Flash | Developer: [Your Name]")
+
